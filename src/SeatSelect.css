@@ -1,0 +1,70 @@
+
+body{margin:auto;}
+.nav{
+    background-color:black;
+    color:white;
+    display:flex;}
+.time{
+  background-color: white;
+  color: black;
+  margin-left:50px;
+  border: 2px solid rgb(240, 240, 240);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.time1{
+background-color:rgb(240, 240, 240);
+padding:10px;}
+
+a:hover, a:active {
+  background-color: rgba(60, 179, 113,0.7);
+  color: white;
+}
+.seats{
+margin-left:200px;}
+td {
+display: inline-block;
+  color: black;
+  padding: 5px ;
+  width: 29px;
+text-align:center;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid rgba(60, 179, 113,0.7);
+  margin: 4px 5px;
+}
+ td:hover:not(.able) {background-color:rgba(60, 179, 113,0.7);}
+.able{border:1px solid white;}
+
+.non{visibility: hidden;}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  padding:10px;
+  float:left;
+  width: 100%;
+  background-color:rgb(240, 240, 240);
+}
+.seatselected{
+  background-color:rgba(60, 179, 113,0.7) ;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.trueclass{
+  display:block;
+}
+.falseclass{
+  display:none;
+}
+.click{
+  margin-top:10px;
+  margin-left:700px;
+  text-align:center;
+  border-radius:5px;
+  background-color:rgba(60, 179, 113,0.7) ;
+  padding:18px;
+  width:300px;
+}

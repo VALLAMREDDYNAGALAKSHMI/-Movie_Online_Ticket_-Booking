@@ -1,0 +1,23 @@
+.pic {
+ 
+    margin:20px;
+    display: inline-block;
+     width: 200px;
+margin-left:50px; }
+   
+   
+   
+   .pic img {
+     width: 100%;
+     height: auto;
+   }
+   
+   .desc {
+     padding: 15px;
+    
+   }
+   .nag{white-space: wrap; 
+       width: 200px; 
+       height:70px;
+       overflow: hidden;
+       text-overflow: ellipsis;}
